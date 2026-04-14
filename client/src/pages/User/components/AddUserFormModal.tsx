@@ -98,7 +98,7 @@ const AddUserFormModal: FC<AddUserFormModalProps> = ({isOpen, onClose}) => {
                 </div>
             </div>
             <div className="flex justify-end gap-2">
-                <CloseButton lable="close" onClose={onClose} />
+                <CloseButton lable="Close" onClose={onClose} />
                 <SubmitButton label="Save User" />
             </div>
           </div>
